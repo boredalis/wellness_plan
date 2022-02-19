@@ -118,6 +118,7 @@ export default {
     deletePlan(planId){
       let payload = this.plans.filter(plan=>plan.id!=planId)
       this.$store.commit('modules/plans/SET_PLANS',payload)
+      this.value = 0
     }
   },
   // components: { CircleProgress }
