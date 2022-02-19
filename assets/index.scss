@@ -1,0 +1,58 @@
+.v-application .elevation-1, .v-menu__content {
+  box-shadow: 0px 0px 1px -1px #00000033, 0px 0px 1px 0px #00000024, 0px 0px 2px 0px #0000001f !important;
+}
+
+.subtitle {
+  color: gray;
+}
+
+.ep-container {
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.legend-caption {
+  font-size: 18px;
+  word-break: break-word;
+  white-space: pre-line;
+  color: #6a6666;
+}
+
+.hide {
+  cursor: pointer;
+
+  &:active {
+    transform: scale(.96);
+  }
+}
+
+.title:first-child {
+  font-size: 30px !important;
+  color: #292c4a;
+}
+
+.ellipse {
+  height: 5px;
+  width: 100%;
+  background: green;
+  border-radius: 40px;
+  &.complete{
+    background: #66BB6A;
+  }
+  &.booked{
+    background: #1876d1;
+  }
+  &.book{
+    background: #97cffb;
+  }
+}
+.v-expansion-panel::before {
+  box-shadow: none !important;
+}
+.v-expansion-panel-header{
+  pointer-events: none;
+}
+.v-expansion-panel-header__icon{
+  pointer-events: all;
+}
